@@ -1,0 +1,30 @@
+Use @Image1 as the primary face reference.
+Use @Image2, @Image3 as secondary face references for angle coverage only.
+Use @Image4 for hairstyle, hair color, and neck/shoulder/upper-body continuity only - not face, not pose, not clothing.
+Use @Image5 as the primary body reference.
+Use @Image6, @Image7 as secondary body references for angle/depth evidence only.
+Use @Image8 for the outfit design.
+
+Create exactly one realistic 9:16 vertical master photo of the same clearly adult woman shown in @Image1.
+
+Purpose: a clean master reference image with face, hairstyle, body proportions, and outfit visible.
+
+Show one woman only. No duplicates, multiple people, collage, split screen, or multiple poses.
+
+FACE: Preserve the same identity from @Image1, @Image2, @Image3, prioritizing @Image1: face shape, eyes, brows, nose, lips, jawline, skin tone, hairline, and hair color. Do not average, morph, or redesign.
+
+HAIR/CONTINUITY: @Image4 controls only hairstyle, hair color/silhouette, skin tone, and neck/shoulder continuity.
+
+BODY: @Image5, @Image6, @Image7 are the only source of body shape - shoulder width, torso length, waist, hips, legs, and silhouette from @Image5. @Image5 shows a full bust, a narrow waist, and a pronounced hourglass silhouette - reproduce this exact shape even where @Image8 is loose-fitting or its own model has a different figure. Do not make the body slimmer, flatter, or more generic than @Image5, and do not exaggerate it beyond what @Image5 shows either. @Image8 must not change body shape.
+
+OUTFIT: Use @Image8 only for garment type, neckline, straps, seams, fabric, texture, color, and design details. Do not copy @Image8's body, pose, or silhouette. Transfer the outfit onto the body from @Image5, @Image6, @Image7. Keep the outfit visible and unchanged. Do not add layers, accessories, bags, hats, jewelry, or props.
+
+POSE: Simple neutral standing pose, upright and relaxed, facing mostly toward camera. Arms relaxed and visible.
+
+SCENE: Clean, simple, natural indoor background with soft even lighting, plain and unobtrusive.
+
+PHYSICS: Body and chest with believable gravity-driven distribution, natural attachment to the torso, mild asymmetry - not perfectly round, symmetrical, or molded. Hair with natural gravity, weight, and soft strand separation - not stiff, static, or wig-like.
+
+SKIN: Amateur candid phone-camera quality, not a beauty campaign or glamour shoot. Visible natural pore texture, uneven tonal variation, natural shadow falloff, subtle camera noise, mild optical softness. Unretouched, not commercial retouching.
+
+Avoid: waxy/plastic skin, beauty-filter smoothing, doll-like AI-beauty finish, overly clean/uniform skin, glamour-shoot polish, distorted anatomy, extra fingers, duplicated limbs, cropped body parts, covered face, identity or body changes, stiff or static hair, outfit redesign, or multiple subjects.

@@ -1,7 +1,0 @@
-Use the attached image as the exact reference for identity, pose, body, chest shape, outfit, framing, background, and lighting. Change nothing except skin rendering.
-
-SKIN ONLY: replace any waxy, plastic, beauty-filter-smoothed, or overly uniform skin with realistic photographed skin - fine natural pore texture, subtle even tonal variation, natural highlight breakup, and visible micro-texture that holds up at close crop. Keep the change subtle and evenly distributed across the skin, not patchy, clustered, or concentrated in one area.
-
-Do not add freckles, moles, acne, spots, blotches, speckling, scars, or any blemish that was not already present. Do not introduce visible noise, grain, or artifact-like marks on the face, chest, or arms. The goal is clean, ordinary, unretouched skin, not extra texture added for its own sake.
-
-Do not change face shape, expression, gaze, pose, body proportions, chest shape or physics, outfit, background, or lighting in any way. This is a texture-only correction of the same exact photograph.

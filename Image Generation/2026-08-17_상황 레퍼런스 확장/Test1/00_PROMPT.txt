@@ -1,0 +1,20 @@
+Use @Image1 as the MASTER - the only reference for identity, hairstyle, body proportions, and exact outfit.
+Use @Image2 as the DAILY REFERENCE - the strict reference for background, setting, props, lighting, camera angle, framing, and pose.
+
+Create one new realistic vertical phone-camera photo for a contemporary Korean Instagram feed. Output the photograph itself, not a phone screen, mockup, or UI.
+
+IDENTITY: Keep her clearly recognizable as the same woman from @Image1 - face shape, eyes, brows, nose, lips, jawline, skin tone, hairline, and hair color. Do not copy @Image1's exact expression, gaze, or head angle. Adapt naturally to the new pose so the face does not look pasted or frozen.
+
+BODY: @Image1 is the only source of body shape - shoulder width, bust, waist, hips, legs, and silhouette. @Image1 shows a full bust, a narrow waist, and a pronounced hourglass silhouette with soft, non-muscular skin - reproduce this exact shape and tone even where @Image2's own person has a different figure, body tone, or is barely visible.
+
+OUTFIT: @Image1 is the only outfit reference - the white top and gray shorts, unchanged. Ignore @Image2's clothing entirely; do not let the Daily Reference's own outfit appear.
+
+POSE/BACKGROUND: Use @Image2 as the strict reference for background, room, desk, props, camera angle, framing, and body position. Reproduce the same setting and pose closely - lying face-down and sideways across the desk, head resting near an open notebook and pen, arm position, camera height and distance - adapted only as needed to fit @Image1's face, body, and outfit. Do not invent a different background or pose.
+
+EXPRESSION: Give her a fresh, natural expression that fits @Image2's mood - relaxed, sleepy, unposed, caught off guard mid-study-break. Identity stays from @Image1; only the expression changes.
+
+PHYSICS: Chest with believable gravity-driven distribution and natural attachment to the torso against the desk, mild asymmetry - not perfectly round or molded. Hair with natural gravity and soft strand separation - not stiff or static, falling naturally with the reclined pose.
+
+SKIN: Amateur candid phone-camera quality, not a beauty campaign. Visible natural pore texture, uneven tonal variation, natural shadow falloff, subtle camera noise, mild optical softness. Unretouched, not commercial retouching.
+
+Avoid: waxy/plastic skin, beauty-filter smoothing, doll-like AI-beauty finish, visible abs or muscle definition, distorted anatomy, extra fingers, duplicated limbs, cropped body parts, covered face, identity or body changes, stiff or static hair, outfit redesign, invented background, frozen or pasted expression, or multiple subjects.
