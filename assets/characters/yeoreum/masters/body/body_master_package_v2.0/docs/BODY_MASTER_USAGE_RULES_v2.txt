@@ -1,0 +1,29 @@
+BODY_MASTER_USAGE_RULES_v2
+
+1. PRIMARY AUTHORITY
+- 02_BODY_MASTER.jpg is the canonical body-proportion authority.
+- Preserve its shoulder/torso ratio, torso length, waist, pelvis width, thigh volume and leg proportions.
+
+2. CORE VIEW SUPPORT
+- 3Q / SIDE / BACK show the same body from additional viewpoints.
+- Use them to resolve depth ambiguity, not to average into a different body.
+
+3. POSE SUPPORT
+- Seated, squat, supine, prone, walk and quadruped images show expected pose deformation.
+- Compression, gravity, weight shift and perspective can change visible widths and projections.
+- Do not convert those visible pose effects into permanent body changes.
+
+4. PHYSICS PRINCIPLE
+- Sitting/squatting: thighs and soft tissue can spread/compress.
+- Supine: anterior projection reduces and soft tissue redistributes laterally.
+- Prone: front torso contact changes chest/abdomen distribution.
+- Quadruped: pelvis/spine angle changes apparent projection; do not exaggerate lumbar arch or glute size.
+- Walking/weight shift: asymmetry is expected; do not redefine limb lengths.
+
+5. PRODUCTION RULE
+- Current NAT_v1.4.3 remains a one-BODY-MASTER production lane unless a newer canonical workflow explicitly enables body support selection.
+- Do not feed every support asset simultaneously by default.
+
+6. IDENTITY RULE
+- FACE_ID_MASTER remains highest facial authority.
+- These body images must not replace or redefine facial identity.

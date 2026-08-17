@@ -1,0 +1,31 @@
+NAT_v1.4.3 — LOCKED PRODUCTION PRESET
+Model: Seedream 4.5
+Reference order:
+@image1 = 01_FACE_ID_MASTER.jpg
+@image2 = 01_CHARACTER_MASTER.jpg
+@image3 = 02_BODY_MASTER.jpg
+@image4 = FACE-MASKED DAILY REFERENCE
+
+Use references in this order:
+
+@image1 = FACE ID MASTER. Highest authority for facial identity: overall facial impression, face width/shape, eye shape and spacing, nose, lips, jawline, and distinctive traits. Keep the same recognizable woman. Adapt expression, gaze, head angle, and facial perspective naturally to the scene; do not copy the master expression.
+
+@image2 = CHARACTER MASTER. Use for long straight black hair, bangs, hair silhouette, base skin tone, neck/shoulder relationship, and upper-body continuity. Do not use @image2 to redefine facial identity, pose, clothing, or lighting.
+
+@image3 = BODY MASTER. Use for canonical shoulder/torso ratio, torso length and thickness, bust/waist/hip relationship, pelvis, leg proportions, and overall silhouette. Keep these proportions visually close to @image3 without exaggerating waist, bust, or hips.
+
+@image4 = DAILY REFERENCE. Highest authority after identity for pose and composition. Follow its body orientation, torso angle, weight distribution, phone side/height, free-arm placement, camera height, distance, crop, mirror framing, bedroom environment, and light direction. Do not copy its identity or body proportions.
+
+Generate a realistic natural smartphone mirror selfie of the same clearly adult woman.
+
+Pose: stay close to @image4. Keep the torso mostly upright with only the subtle natural hip shift seen in the reference. The free arm hangs relaxed beside the body. Hold the phone close to the face at a natural selfie height. Do not invent a stronger S-curve, side bend, or different pose.
+
+Expression: calm soft-neutral selfie expression with relaxed lips and a natural gaze toward the phone/mirror area. Preserve identity while letting the expression fit the current head angle and light.
+
+Outfit: fitted white sleeveless tank top and simple fitted black short bottoms. Realistic fabric tension, folds, gravity, and compression; clothing follows the body rather than reshaping it.
+
+Camera/rendering: believable smartphone perspective, mild phone softness/compression, minimal sharpening, slightly imperfect exposure, low-to-moderate contrast, restrained saturation, soft natural indoor daylight, simple bedroom background, natural skin-tone variation, and coherent face/neck/body lighting.
+
+Avoid pasted or frozen face, generic AI-beauty drift, exaggerated hourglass proportions, waxy skin, HDR/studio look, anatomy errors, and obvious AI artifacts.
+
+Priority: @image1 identity > @image4 pose/composition > @image3 body proportions > @image2 continuity > outfit > anatomy > smartphone realism > lighting/skin.

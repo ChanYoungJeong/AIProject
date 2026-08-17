@@ -1,0 +1,8 @@
+01_MASTER_IMAGE.png
+https://d8j0ntlcm91z4.cloudfront.net/user_3GsQORcAE7g4Hbm1E3wyT14lIUK/hf_20260812_022154_7764fb92-8abc-427e-b838-e3076929f67e.png
+
+02_DAILY_SCENE_POSE.jpg
+https://d2ol7oe51mr4n9.cloudfront.net/user_3GsQORcAE7g4Hbm1E3wyT14lIUK/c67091cc-ce89-42c6-8a3f-64d3721cef44.jpg
+
+OUTPUT_IMAGE
+https://d8j0ntlcm91z4.cloudfront.net/user_3GsQORcAE7g4Hbm1E3wyT14lIUK/hf_20260815_043936_ae053be5-933e-4c95-ad68-432db90bea20.png

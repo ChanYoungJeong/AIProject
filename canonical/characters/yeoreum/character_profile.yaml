@@ -1,0 +1,44 @@
+# Source: AI_Influencer_Studio_System_Architecture_v0.2.2.md Sec.49
+# Character Bible Integration — structured metadata (real content, migrated verbatim).
+# The full narrative bible text lives in CHARACTER_BIBLE_YEOREUM_v1.1.txt (placeholder until provided).
+
+character:
+  id: yeoreum
+  display_name: Han Yeoreum
+  adult: true
+  age: 19
+
+  core_persona:
+    - quiet
+    - introverted
+    - homebody
+    - nerd_interests
+    - more_confident_online_than_offline
+
+  visual_formula:
+    - soft_face
+    - curvy_silhouette
+    - ordinary_adult_life
+    - slightly_daring_styling
+
+  expression_range:
+    - soft_neutral
+    - tiny_smile
+    - side_glance
+    - shy_chin_down
+    - relaxed_candid
+    - slightly_confident
+
+  primary_content_pillars:
+    home_just_outside: 45
+    outfit_fitting_mirror: 20
+    university_quiet_day: 15
+    nerd_lifestyle: 10
+    cosplay_special: 10
+
+# Important system constraints (Architecture Sec.49):
+# - maintain clearly adult presentation
+# - do not lock one expression across all images
+# - avoid turning the character into a generic party/luxury/studio-model persona
+# - use ordinary-life locations and recurring habits when they support requested content
+# - content planning should reflect gradual confidence, not sudden personality replacement

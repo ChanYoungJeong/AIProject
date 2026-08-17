@@ -1,0 +1,17 @@
+What worked:
+- The master character was transferred into Image2's photographed environment/background well.
+- Image2's overall scene and photographic context were followed well.
+
+Model trade-off observed by user:
+- Seedream 5 Lite often does NOT follow the reference pose closely enough.
+- That looser adherence can be useful when avoiding duplicated-looking images, but is a weakness when exact pose replication is desired.
+- Seedream 4.5 follows the reference pose very well.
+- However, Seedream 4.5 can freeze the face too strongly and make facial/skin characteristics excessively consistent, to the point of looking copied-and-pasted.
+
+Claude note:
+- This is not a simple '5 Lite good / 4.5 bad' comparison.
+- 5 Lite advantage: more variation / less duplication.
+- 5 Lite weakness: weaker pose fidelity when exact matching is required.
+- 4.5 advantage: high pose fidelity.
+- 4.5 weakness: over-fixed face and over-consistent skin/rendering.
+- Future prompt/model routing should distinguish 'exact pose replication' from 'reference-inspired variation' as separate generation intents.

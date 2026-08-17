@@ -1,0 +1,42 @@
+# Source: AI_Influencer_Studio_System_Architecture_v0.2.2.md Sec.48
+# Canonical Natural / Mirror Integration Profile (real content, migrated verbatim).
+
+lane_policy:
+  lane: natural_mirror
+  canonical_preset: NAT_v1.4.3
+  status: locked
+
+  model:
+    provider: higgsfield
+    model: seedream_4_5
+    max_prompt_length: 3000
+
+  reference_order:
+    image1: FACE_ID_MASTER
+    image2: CHARACTER_MASTER
+    image3: BODY_MASTER
+    image4: DAILY_REFERENCE_FACE_MASKED
+
+  priority:
+    - face_identity
+    - daily_pose_composition
+    - body_proportions
+    - character_continuity
+    - outfit
+    - anatomy
+    - smartphone_realism
+    - lighting_skin
+
+  pose_policy:
+    reference_led: true
+    invent_new_pose: false
+
+  face_policy:
+    preserve_identity: true
+    copy_master_expression: false
+    adapt_gaze_head_angle_perspective: true
+
+  outfit_policy: preset_defined
+
+  refinement_policy:
+    mandatory_second_pass: false

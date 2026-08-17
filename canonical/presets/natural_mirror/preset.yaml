@@ -1,0 +1,27 @@
+# Source: AI_Influencer_Studio_System_Architecture_v0.2.2.md Sec.12 (structure) + Sec.48 (values).
+# prompt_hash is sha256 of the real NAT_v1.4.3_LOCKED_PROMPT.txt content (migrated from
+# AI_Influencer_Studio_Project_Sources_2026-08-15 on 2026-08-15). Recompute and bump this only
+# if the locked snapshot is ever legitimately re-derived as a new version — never on the
+# existing NAT_v1.4.3 file itself (Architecture Sec.29).
+
+preset_id: NAT_v1.4.3
+status: locked
+lane: natural_mirror
+
+model:
+  provider: higgsfield
+  model: seedream_4_5
+
+reference_profile: NAT_MIRROR_FOUR_REF_V1
+max_prompt_length: 3000
+
+prompt_snapshot_path: canonical/presets/natural_mirror/NAT_v1.4.3_LOCKED_PROMPT.txt
+prompt_hash: fdb5c9802414ebc87de6dc911bec4f9b12c26228eca3ba9f9f4c1a4da7873f88
+
+modules:
+  identity: null
+  camera: null
+  realism: null
+
+outfit_policy: preset_defined
+revision_policy: derive_new_version

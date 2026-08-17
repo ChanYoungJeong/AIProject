@@ -1,0 +1,101 @@
+AI Influencer Studio — Natural / Mirror Selfie Test Record
+Date: 2026-08-15
+Status: COMPLETE / LOCKED FOR CURRENT LANE
+
+1. FINAL DECISION
+- Canonical reusable production prompt: NAT_v1.4.3.
+- NAT_v1.4.4 is retained only as an optional refinement pass from an already-good result.
+- Reason: NAT_v1.4.4 produced results very similar to the approved NAT_v1.4.3 output and did not justify adding another default generation stage.
+- Best sample from the NAT_v1.4.3 batch: candidate #1, mainly because of the stable upright pose, natural free arm, balanced phone position, believable framing, and strong overall postability.
+
+2. FINAL REFERENCE ARCHITECTURE
+@image1 = FACE ID MASTER
+  Role: facial identity only; highest facial authority.
+
+@image2 = CHARACTER MASTER
+  Role: hairstyle, hair color/silhouette, base skin tone, neck/shoulder and upper-body continuity.
+
+@image3 = BODY MASTER
+  Role: canonical body proportions and silhouette.
+
+@image4 = FACE-MASKED DAILY REFERENCE
+  Role: pose, composition, phone placement, camera/framing, crop, environment, and lighting direction.
+
+Final priority:
+FACE identity > DAILY pose/composition > BODY proportions > CHARACTER continuity > outfit > anatomy > smartphone realism > lighting/skin.
+
+3. IMPORTANT TEST FINDINGS
+A. Four-reference structure should be retained.
+- A test removing CHARACTER MASTER produced more generic/different results.
+- CHARACTER MASTER therefore remains useful as an overall continuity anchor.
+
+B. Daily Reference face can interfere with identity.
+- Unmasked external Daily References caused greater identity drift.
+- Masking the Daily Reference face improved character consistency.
+- Final rule: use the external Daily Reference as a pose/composition source, preferably with the face masked when identity conflict is visible.
+
+C. GPT Image aligned-base experiment was not adopted as the canonical path.
+- GPT Image produced coherent/natural scenes but did not preserve FACE ID closely enough for this character.
+- It can still be used for ideation or pose/environment preparation, but not as the main facial-identity source.
+
+D. Stronger face wording alone is not the solution.
+- Over-strengthening FACE ID risked a pasted/frozen-face look.
+- Better result came from preserving recognizable identity while allowing expression, gaze, head angle, perspective, and lighting to adapt naturally.
+
+E. Daily Reference priority must stay above BODY and CHARACTER for pose/composition.
+- NAT_v1.4.2 temporarily placed BODY/CHARACTER too high in the ending priority statement.
+- NAT_v1.4.3 corrected this to the canonical hierarchy.
+
+F. Pose should be reference-led, not re-invented in text.
+- The best outputs used a mostly upright, stable stance, minimal hip shift, relaxed free arm, and phone close to the face.
+- Avoid adding a stronger S-curve, pelvis bend, or unrelated pose instructions.
+
+G. Natural Instagram rendering target that worked
+- believable smartphone perspective
+- mild phone softness/compression
+- restrained saturation
+- low-to-moderate contrast
+- slightly imperfect exposure
+- natural indoor daylight
+- natural face/neck/body lighting continuity
+- no HDR, studio, 8K-advertising or waxy-skin look
+
+4. VERSION HISTORY
+NAT_v1.4.1
+- Returned to the four-reference architecture.
+- Kept FACE ID as facial authority while using CHARACTER for continuity.
+- Still showed face-copy / integration tension in some tests.
+
+NAT_v1.4.2
+- Strengthened role separation.
+- Limited Daily Reference to pose/composition/environment.
+- Added natural face integration and body-exaggeration controls.
+- Issue: final priority wording placed BODY/CHARACTER above Daily pose/composition, creating unnecessary conflict.
+
+NAT_v1.4.3 — LOCKED
+- Corrected priority to FACE > DAILY > BODY > CHARACTER.
+- Removed unnecessary pose invention and told Seedream to stay close to Daily Reference.
+- Produced the strongest balanced batch so far: identity, upright pose, body appeal, phone placement, bedroom framing, and overall SNS plausibility were all usable.
+
+NAT_v1.4.4 — OPTIONAL ONLY
+- Used the best NAT_v1.4.3 result as a new approved anchor plus FACE/CHARACTER/BODY masters.
+- Goal: minimal facial/body correction while preserving everything else.
+- Result: outputs remained very similar; improvement was too small to justify making this a mandatory stage.
+
+5. LOCKED OPERATING RULES FOR THIS LANE
+- Default model: Seedream 4.5.
+- Keep Seedream prompt below 3,000 characters.
+- Use all three masters plus a Daily Reference.
+- If the Daily Reference identity interferes, mask its face before production.
+- Do not let Daily Reference redefine body proportions or character identity.
+- Do not force the FACE master's exact expression/gaze/head angle.
+- Keep pose close to the Daily Reference.
+- Prefer structurally correct seeds over trying to repair a fundamentally wrong result.
+- Once an output is already strong, do not automatically run a second refinement generation; use NAT_v1.4.4 only when a specific correction is worth the extra pass.
+
+6. CURRENT COMPLETION STATUS
+This mirror-selfie Natural lane is considered complete enough for production use. Remaining face/body variation is treated as normal model variance rather than a reason for further prompt expansion. Future improvement should come from better Daily Reference selection, better master assets, or measurable A/B tests—not from continuously adding prompt constraints.
+
+Recommended Project Source files:
+- NAT_v1.4.3_LOCKED_PROMPT.txt
+- NAT_v1_WORKFLOW_TEST_LOG_2026-08-15.txt

@@ -1,0 +1,11 @@
+assets/**
+generations/**
+qc/**
+experiments/**
+database/*.db
+vendor/**
+.git/**
+node_modules/**
+Image Generation/**
+.venv/**
+__pycache__/**

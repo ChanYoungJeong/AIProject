@@ -1,0 +1,15 @@
+What worked:
+- Very good at combining the intended character identity, intended body shape, and desired outfit.
+- Straight, stable, neutral pose is good enough for Character Reference / Master Reference use.
+- Face/body/outfit role separation works well.
+
+Weaknesses:
+- Reference-heavy: 3 face refs + 3 body refs.
+- Body and skin can look AI-generated.
+- Biggest issue is chest/bust physics: figurine-like or molded appearance; poor gravity/soft-tissue behavior and weak garment interaction.
+
+Claude note:
+- Preserve the successful identity + body + outfit assembly and reference-friendly neutral pose.
+- Optimize upstream realism, especially skin/body/chest physics.
+- Investigate whether fewer references can retain the same control.
+- Do not treat GPT's discarded revision proposal as part of this case.

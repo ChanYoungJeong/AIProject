@@ -1,0 +1,26 @@
+# Source shape: AI_Influencer_Studio_System_Architecture_v0.2.2.md Sec.50
+# First local source resolved for any production request (Architecture Sec.50, Sec.52).
+
+project: AI_Influencer_Studio
+
+workflow_master: canonical/workflow/00_WORKFLOW_MASTER_AI_INFLUENCER_v1.2.txt
+
+characters:
+  yeoreum:
+    bible: canonical/characters/yeoreum/CHARACTER_BIBLE_YEOREUM_v1.1.txt
+    profile: canonical/characters/yeoreum/character_profile.yaml
+    masters:
+      face_id: FACE_YEOREUM_V1
+      character: CHARACTER_YEOREUM_V1
+      body: BODY_YEOREUM_V2_CANDIDATE # promoted 2026-08-15, was BODY_YEOREUM_V1 — see Body Master Package v2.0
+
+lanes:
+  natural_mirror:
+    preset: NAT_v1.4.3
+    policy: canonical/presets/natural_mirror/lane_policy.yaml
+
+presets:
+  NAT_v1.4.3:
+    status: locked
+    prompt: canonical/presets/natural_mirror/NAT_v1.4.3_LOCKED_PROMPT.txt
+    metadata: canonical/presets/natural_mirror/preset.yaml

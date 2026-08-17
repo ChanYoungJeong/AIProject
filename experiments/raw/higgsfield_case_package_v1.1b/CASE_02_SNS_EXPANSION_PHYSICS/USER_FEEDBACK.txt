@@ -1,0 +1,14 @@
+What worked:
+- PHYSICS section seems somewhat better than variants without it.
+- Pose and expression are not frozen to the master.
+- Natural variation in pose/gaze/expression/angle is useful.
+- Some generations fail, but batch generation can yield usable images.
+
+Weaknesses / hypothesis:
+- The master itself already looks AI-generated, so downstream artificial skin/body/chest traits may be inherited.
+- If upstream master quality improves, downstream realism may improve too.
+- Background atmosphere and lighting do not consistently fit the intended character concept.
+- Preserve pose/expression freedom; revise environment/lighting direction later.
+
+Diagnostic:
+Pose/expression variation is working. Main bottlenecks are upstream master realism and downstream environment/lighting alignment.

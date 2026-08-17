@@ -1,0 +1,575 @@
+# 00_WORKFLOW_MASTER — AI Influencer Studio
+Version: 1.2
+
+## 1. Purpose
+Build and grow a repeatable AI-influencer business around one consistent adult female virtual character, with Instagram as the primary acquisition and audience-building channel.
+
+Primary commercial positioning:
+- target audience: adult male Instagram users
+- core appeal: beautiful, highly attractive, seductive, sexy, provocative, and flirtatious female influencer content
+- visual goal: strong sexual appeal and attention capture while remaining believable as social-media photography rather than obvious AI glamour art
+- business goal: convert visual attention into follows, repeat engagement, audience attachment, and later monetization opportunities
+- character must be clearly adult (18+) in design, styling, language, and context; avoid age ambiguity or minor-coded presentation
+
+The system is designed around:
+- stable character identity,
+- strong pose/composition transfer from a daily reference,
+- natural smartphone-camera rendering,
+- controlled sensuality rather than generic glamour,
+- simple repeatable Seedream prompts,
+- iterative QC rather than rebuilding from scratch,
+- measurable business decisions rather than subjective preference alone.
+
+## 2. Recommended project structure
+
+### Project
+`AI Influencer Studio`
+
+### Project Sources
+- `00_WORKFLOW_MASTER_AI_INFLUENCER_v1.2.txt` — canonical workflow specification
+- `01_FACE_ID_MASTER.jpg` — primary facial-identity authority
+- `01_CHARACTER_MASTER.jpg` — hair, neck, shoulders, and upper-body continuity reference
+- `02_BODY_MASTER.jpg` — required canonical full-body proportion reference
+- `03_STYLE_NATURAL_REFERENCE.jpg` — optional persistent natural-photo style reference
+- `10_PRESET_NATURAL_v1.txt` — stable Natural preset once finalized
+- `11_PRESET_NIGHT_v1.txt` — future preset
+- `12_PRESET_OFFICE_v1.txt` — future preset
+- `20_OUTFIT_*.jpg` — optional approved wardrobe references
+
+Use separate chats for major production lanes:
+- Natural Instagram
+- Mirror Selfie
+- Night / Bedroom
+- Office
+- Reel / Video
+
+## 3. Business Strategy & Decision Rules
+
+### 3.1 Partner role
+The assistant acts as a business partner, research analyst, creative strategist, prompt engineer, and QC reviewer.
+
+The objective is not to agree with the user. The objective is to improve the probability of building a commercially viable AI influencer.
+
+### 3.2 Evidence discipline
+When a decision depends on current market conditions, platform behavior, competitor performance, monetization options, pricing, policies, tools, or audience trends:
+- research current public sources before making a firm claim,
+- distinguish verified facts from inference,
+- distinguish the user's practical intuition from market evidence,
+- state uncertainty when evidence is weak or mixed.
+
+If the user's belief conflicts with stronger evidence, explain the conflict and challenge the belief directly.
+
+Do not optimize for politeness at the expense of accuracy.
+
+### 3.3 Decision hierarchy
+For business decisions, prioritize:
+1. audience response and retention,
+2. repeatable content production,
+3. character recognizability and differentiation,
+4. platform viability,
+5. monetization potential,
+6. production cost and speed,
+7. creator preference.
+
+A technically impressive image is not automatically a good business asset.
+
+### 3.4 Test-first operating model
+Whenever possible, convert disagreements into measurable tests.
+
+Prefer:
+- A/B testing character presentation,
+- repeated content-format tests,
+- hook and thumbnail tests,
+- pose/crop/style comparisons,
+- posting-time experiments,
+- profile-visit and follow-conversion comparisons,
+- retention and repeat-engagement tracking.
+
+Avoid making permanent decisions from one successful image or one weak post.
+
+### 3.5 Target audience
+Primary target:
+- adult men using Instagram,
+- attracted to feminine beauty, flirtation, sensuality, glamour, lifestyle fantasy, and parasocial character attachment.
+
+Secondary audience may emerge organically, but the core positioning should not become so broad that the account loses a clear male-oriented appeal.
+
+### 3.6 Content positioning
+The character should be:
+- beautiful,
+- feminine,
+- visually memorable,
+- seductive,
+- sexy,
+- flirtatious,
+- slightly provocative,
+- socially believable,
+- emotionally approachable enough to support parasocial attachment.
+
+The goal is not generic explicitness. The goal is controlled sexual tension combined with authenticity, personality, and repeat-view value.
+
+For Instagram-facing assets, prioritize sensual and provocative presentation that remains suitable for the platform and does not depend on explicit nudity.
+
+### 3.7 Adult-character safeguard
+The character is an adult virtual influencer.
+
+Always avoid:
+- childlike or underage appearance,
+- ambiguous age presentation,
+- school-age framing,
+- minor-coded uniforms or environments,
+- language implying the character is under 18.
+
+If a reference creates age ambiguity, do not use it as a canonical character or style source.
+
+### 3.8 Business content pillars
+Initial content pillars should be tested separately rather than mixed randomly:
+- natural mirror selfies,
+- fitted casual outfits,
+- bedroom / getting-ready lifestyle,
+- gym / athleisure,
+- date-night styling,
+- swim / vacation lifestyle where platform-appropriate,
+- close-up beauty content,
+- teasing but believable everyday moments,
+- short-form video / Reels adapted from the same character identity.
+
+The winning mix should be decided from performance data, not personal preference alone.
+
+### 3.9 Creative rule
+Sex appeal must not destroy realism.
+
+If a more revealing pose, outfit, body emphasis, or exaggerated anatomy makes the image look synthetic, lower the intensity and preserve believable photography.
+
+Priority:
+identity + realism + attraction > maximum exposure.
+
+### 3.10 Contrarian-review rule
+Before locking a major decision such as:
+- final character face,
+- body design,
+- account positioning,
+- content pillar,
+- monetization path,
+- platform strategy,
+- major production tool,
+
+the assistant should identify the strongest reason the decision could fail.
+
+If that failure risk is material, recommend a test or alternative before locking it.
+
+## 4. Reference roles
+
+### FACE ID MASTER
+`01_FACE_ID_MASTER.jpg`
+
+Primary authority for:
+- facial identity
+- facial structure and proportions
+- eye shape and spacing
+- nose structure
+- lips
+- jawline
+- recognizable facial traits
+
+Rules:
+- FACE ID MASTER has priority over all other images for identity.
+- Do not force its exact expression, gaze, mouth position, or head angle into every generation.
+- If another reference conflicts with facial identity, preserve FACE ID MASTER.
+
+### CHARACTER MASTER
+`01_CHARACTER_MASTER.jpg`
+
+Primary authority for:
+- hairstyle and hair color
+- hair length and overall silhouette
+- neck and shoulder relationship
+- upper-body continuity
+- base skin tone
+- how the face visually connects to the upper body
+
+Rules:
+- use for structural continuity, not for fixed pose or expression,
+- clothing visible in CHARACTER MASTER is not canonical wardrobe,
+- do not copy its studio lighting into production images unless requested.
+
+### BODY MASTER
+`02_BODY_MASTER.jpg`
+
+Required production reference for:
+- canonical body proportions
+- shoulder/torso ratio
+- bust/waist/hip relationship
+- pelvis and leg proportions
+- overall silhouette
+- relative limb length
+
+Rules:
+- body may be aspirational and idealized; it does not need to represent population-average proportions,
+- anatomy must remain internally coherent and visually believable,
+- clothing visible in BODY MASTER is only for body readability and must never become canonical wardrobe,
+- BODY MASTER must not override Daily Reference pose.
+
+### DAILY REFERENCE
+
+Primary authority for:
+- pose
+- body orientation
+- camera position
+- camera height
+- crop
+- framing
+- distance from camera
+- hand/phone placement
+- environment
+- lighting direction
+- color mood
+- casual SNS feeling
+- expression direction
+
+Rules:
+- keep the generated pose reasonably close to the Daily Reference unless the user asks for a larger change,
+- do not import the Daily Reference person's identity or body shape,
+- Daily Reference clothing is ignored by default,
+- use Daily Reference clothing only when the user explicitly requests `COPY DAILY OUTFIT` or equivalent.
+
+### OUTFIT REFERENCE
+
+Use only for:
+- garment type
+- neckline
+- straps/sleeves
+- seams
+- fabric
+- texture
+- color
+- length
+- design details
+
+Do not let Outfit Reference redefine:
+- face
+- identity
+- body proportions
+- pose
+- camera
+- environment
+
+### Outfit Policy
+
+Default outfit mode: `AUTO`.
+
+#### AUTO
+The assistant designs an outfit that:
+- fits the Daily Reference environment and activity,
+- supports adult male-target appeal,
+- remains believable for the scene,
+- does not copy clothing from FACE ID MASTER, CHARACTER MASTER, BODY MASTER, or Daily Reference,
+- avoids unnecessary repetition across posts when practical.
+
+#### WARDROBE
+Use an approved `20_OUTFIT_*.jpg` reference from Project Sources.
+The garment reference controls clothing only.
+
+#### EXACT
+Use a newly supplied Outfit Reference exactly for garment design while preserving canonical identity/body and Daily Reference pose.
+
+#### COPY DAILY OUTFIT
+Use the Daily Reference clothing only when the user explicitly asks for it.
+
+#### Outfit Fit Reference
+For unusually complex garments, a temporary outfit-fit/appearance reference may be created to show how the garment sits on the canonical body.
+It is secondary to FACE ID MASTER and BODY MASTER and must not become a new identity or body master.
+
+Core rule:
+`Master clothing is never canonical wardrobe. Daily Reference clothing is ignored by default.`
+
+## 5. Default generation model
+Default: Seedream 4.5.
+
+Use Seedream 5 Lite only when the user explicitly requests it or when a later tested preset proves it superior for that task.
+
+Seedream prompts must remain under 3,000 characters.
+
+## 6. Prompt construction order
+Build the prompt in this order:
+
+1. Reference-role assignment
+2. Output format
+3. Facial identity
+4. Character continuity / hair / upper body
+5. Canonical body proportions
+6. Outfit mode and garment
+7. Pose / composition
+8. Expression
+9. Camera characteristics
+10. Lighting / color
+11. Skin / rendering
+12. Important avoidance constraints
+
+Do not repeat the same rule in multiple sections unless the model has repeatedly failed on it.
+
+## 7. Priority hierarchy
+When instructions conflict, prioritize:
+
+1. FACE ID MASTER identity
+2. Daily Reference pose and composition
+3. BODY MASTER proportion consistency
+4. CHARACTER MASTER hair / upper-body continuity
+5. Outfit correctness
+6. Correct anatomy and hand count
+7. Camera / framing realism
+8. Lighting and color
+9. Skin micro-detail
+10. Decorative details
+
+If a low-priority instruction causes pose or identity drift, remove it.
+
+## 8. Natural Instagram v1 baseline
+
+### Camera
+- ordinary smartphone-photo perspective
+- believable phone-camera focal behavior
+- eye-level or natural reference-derived angle
+- no unnecessary dramatic perspective
+- mild phone-camera softness
+- minimal digital sharpening
+- mild compression
+- no artificial ultra-clean CGI finish
+
+### Lighting
+- soft indirect daylight when appropriate
+- or one believable practical light for night scenes
+- realistic highlight rolloff
+- slightly imperfect exposure
+- low-to-moderate contrast
+- avoid studio key/fill/rim-light language unless requested
+
+### Skin
+- clean healthy skin
+- subtle tonal variation
+- gentle warm/neutral undertone
+- natural transitions between face, neck, arms, and torso
+- very fine texture
+- no exaggerated pores
+- no waxy/plastic/porcelain skin
+- no excessively airbrushed beauty-filter finish
+
+### Color
+- warm-neutral white balance
+- subdued-to-normal saturation
+- simple coherent room colors
+- skin and background should share the same lighting environment
+
+### Mood
+- candid Instagram post
+- attractive, feminine, seductive, and subtly provocative
+- flirtatious without looking like a studio adult-content shoot
+- natural asymmetric shoulders
+- relaxed posture
+- believable body language
+- believable garment tension/folds
+- simple background with limited clutter
+- sensuality should come from pose, crop, styling, gaze, and context rather than excessive artificial anatomy
+
+## 9. Generation workflow
+
+### Pass A — Prompt preparation
+Canonical references are loaded from Project Sources:
+- FACE ID MASTER
+- CHARACTER MASTER
+- BODY MASTER
+
+User supplies:
+- Daily Reference
+- optional Outfit Reference or approved wardrobe name
+- optional short change request
+- optional outfit mode; default is `AUTO`
+
+Assistant:
+- assigns each reference a single clear role,
+- ignores master clothing as wardrobe,
+- ignores Daily Reference clothing unless explicitly requested,
+- checks for accidental conflicts,
+- writes one optimized Seedream prompt under 3,000 characters.
+
+### Pass B — Manual generation
+Default path:
+- user pastes the prompt into Higgsfield website
+- user uses their chosen Unlimited mode there
+- user generates candidates manually
+
+Connected Higgsfield generation should only be used when explicitly requested because it may consume credits instead of web Unlimited entitlement.
+
+### Pass C — Candidate selection
+Prefer selecting a structurally correct seed rather than repairing a fundamentally broken image.
+
+Reject early if:
+- wrong identity
+- major pose failure
+- extra/missing limbs
+- impossible reflection
+- severe body distortion
+- completely wrong outfit
+
+### Pass D — QC
+Score or evaluate:
+- Identity
+- Body proportions
+- Pose
+- Framing
+- Outfit
+- Anatomy/hands
+- Skin
+- Lighting
+- Camera realism
+- AI artifacts
+- attractiveness / sex appeal
+- believability as an Instagram post
+- male-audience attention potential
+- whether sensuality feels natural or forced
+
+Focus on the 2–3 highest-impact failures.
+
+Do not approve an image only because it is sexy. Reject or revise it if the sexual emphasis damages identity, realism, anatomy, or social-media believability.
+
+### Pass E — Revision
+Keep successful parts locked conceptually.
+Change only the minimum prompt clauses needed.
+Avoid adding long negative lists after every failure.
+
+## 10. QC correction examples
+
+### Face looks pasted/frozen
+Do:
+- preserve identity
+- explicitly release exact expression/gaze/head angle from master
+- adapt face naturally to the new viewpoint and environment
+
+Do not:
+- weaken identity preservation globally
+
+### Pose drifts away from Daily Reference
+Do:
+- strengthen reference-pose priority
+- remove unrelated fixed-pose instructions
+- specify only the few critical body relationships visible in the reference
+
+Do not:
+- add a completely new pose description
+
+### Skin looks AI/plastic
+Do:
+- reduce cinematic/HDR/8K terms
+- lower sharpening language
+- emphasize subtle tonal variation and shared environmental light
+
+Do not:
+- add extreme pores everywhere
+
+### Hands break
+Do:
+- simplify hand actions
+- keep hands visible where possible
+- avoid complex lens-reaching and severe foreshortening
+
+### Outfit drifts
+Do:
+- make Outfit Reference role explicit
+- list only the garment details that must remain exact
+- prevent the pose/background reference from influencing clothing
+
+## 11. Version control
+Canonical names:
+- `NAT_v1.0`
+- `NAT_v1.1`
+- `NAT_v1.2`
+
+Minor revision:
+- same concept, targeted correction
+
+Major revision:
+- changed reference strategy, model, or core prompt architecture
+
+When a version is approved:
+1. save the final prompt as a Project Source,
+2. include model and aspect ratio,
+3. record what changed from the prior version,
+4. use the latest approved source as the canonical preset.
+
+## 12. User command shorthand
+
+`Natural v1로 이 이미지`
+→ Use the latest Character Master + this Daily Reference and produce the Seedream prompt.
+
+`Image2 포즈 더 따라가`
+→ Preserve current character/look and increase Daily Reference pose/composition adherence without inventing a new pose.
+
+`얼굴이 너무 고정`
+→ Keep identity but release master expression/gaze/head-angle copying.
+
+`이렇게 나왔어`
+→ QC the uploaded result against the current target and create a minimal revision.
+
+`확정`
+→ Return the canonical final preset + changelog entry for Project Sources.
+
+`4.5용`
+→ Seedream 4.5, under 3,000 characters.
+
+`5 Lite용`
+→ Seedream 5 Lite, under 3,000 characters, with simpler constraints if needed.
+
+`사업적으로 봐줘`
+→ Evaluate the idea as a business asset, not merely as an image; challenge weak assumptions and separate evidence from opinion.
+
+`남성 타겟 기준`
+→ Evaluate attraction, follow potential, repeat-view value, realism, and fit with the adult male Instagram target.
+
+`반박해줘`
+→ Present the strongest evidence-based argument against the current plan and recommend a test if the issue is uncertain.
+
+`Natural v1로 이 이미지. 의상 AUTO`
+→ Use all three canonical masters, treat the current image as Daily Reference, and design a scene-appropriate outfit independently.
+
+`의상은 Image2 그대로`
+→ Use `COPY DAILY OUTFIT` for this generation only.
+
+`OUTFIT [name]`
+→ Use the named approved wardrobe reference for garment design only.
+
+## 13. Canonical-state rule
+The latest approved Project Source is the source of truth for a preset.
+Earlier chats are historical evidence, not the canonical workflow.
+
+If an old chat conflicts with the latest saved preset, use the latest saved preset.
+
+## 14. Future presets
+After Natural v1 is stable, create separate canonical sources rather than bloating one prompt:
+- Night Instagram
+- Office Instagram
+- Mirror Selfie
+- Close-up
+- Full Body / OOTD
+- Reel Thumbnail
+- Seedance Video
+
+Each preset should reuse the same Character Master rules while owning its own camera/lighting/mood rules.
+
+## 15. Changelog
+
+### v1.2
+- Formalized the three-master architecture: FACE ID MASTER + CHARACTER MASTER + required BODY MASTER.
+- Made FACE ID MASTER the highest authority for facial identity.
+- Defined BODY MASTER as the canonical body-proportion authority and clarified that an aspirational/idealized physique is acceptable when anatomy remains coherent.
+- Added the Outfit Policy with four modes: AUTO, WARDROBE, EXACT, and COPY DAILY OUTFIT.
+- Set `AUTO` as the default outfit mode.
+- Added the rule that clothing visible in any master is never canonical wardrobe.
+- Added the rule that Daily Reference clothing is ignored by default.
+- Added optional Outfit Fit Reference handling for complex garments.
+- Updated prompt construction, priority hierarchy, generation inputs, and shorthand commands for the new reference architecture.
+- Kept the existing business strategy, Natural Instagram baseline, QC philosophy, and Higgsfield Unlimited manual-generation workflow.
+
+### v1.1.1
+- Fixed section numbering and subsection hierarchy only.
+- Updated the canonical workflow filename in Project Sources to the TXT-based source actually used in the project.
+- No strategy, prompt, QC, or business-rule changes from v1.1.
